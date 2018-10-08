@@ -38,6 +38,4 @@ dependencies {
     compile 'mysql:mysql-connector-java'
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
-    compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.0-api', version: '1.0.1.Final'
-
 }

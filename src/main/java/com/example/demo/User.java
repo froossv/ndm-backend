@@ -1,4 +1,4 @@
-package tables;
+package com.example.demo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,9 +13,14 @@ public class User {
     private String password;
     private String phone;
 
+    public User(){
+
+    }
+
     public User(String u, String p, String ph){
         this.userName=u;
         this.password=p;
         this.phone=ph;
     }
 }
+
